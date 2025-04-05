@@ -35,3 +35,4 @@
 - docs: update README with scope configuration [2025-04-03T20:58:00]
 - feat: add example hook for Settings app [2025-04-04T21:36:00]
 - refactor: extract hook logic to separate files [2025-04-05T09:47:00]
+- fix: ClassNotFoundException on MIUI [2025-04-05T15:35:00]
