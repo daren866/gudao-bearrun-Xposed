@@ -36,3 +36,4 @@
 - feat: add example hook for Settings app [2025-04-04T21:36:00]
 - refactor: extract hook logic to separate files [2025-04-05T09:47:00]
 - fix: ClassNotFoundException on MIUI [2025-04-05T15:35:00]
+- feat: add preference activity for module settings [2025-04-06T15:10:00]
