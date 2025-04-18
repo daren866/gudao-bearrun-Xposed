@@ -54,3 +54,4 @@
 - fix: crash when target app not installed [2025-04-17T12:43:00]
 - feat: add broadcast receiver hook [2025-04-17T10:31:00]
 - docs: document known limitations [2025-04-17T14:38:00]
+- feat: add ContentProvider hook example [2025-04-18T10:08:00]
