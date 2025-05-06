@@ -76,3 +76,4 @@
 - fix: deoptimization issue on Android 14 [2025-05-05T19:28:00]
 - feat: add scope filter for system apps [2025-05-06T09:53:00]
 - chore: update xposed API version [2025-05-06T16:19:00]
+- feat: add method replacement example [2025-05-06T09:09:00]
