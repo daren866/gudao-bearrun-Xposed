@@ -107,3 +107,4 @@
 - feat: add scope filter for system apps [2025-05-30T14:31:00]
 - chore: update xposed API version [2025-05-30T11:38:00]
 - feat: add method replacement example [2025-06-01T19:19:00]
+- fix: hook not applied after module update [2025-06-01T09:07:00]
