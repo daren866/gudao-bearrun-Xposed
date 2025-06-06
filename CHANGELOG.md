@@ -118,3 +118,4 @@
 - fix: reflection error on obfuscated apps [2025-06-05T15:43:00]
 - chore: add GitHub Actions CI workflow [2025-06-05T10:28:00]
 - feat: add hook for camera API [2025-06-05T20:17:00]
+- fix: memory leak in hook callback [2025-06-06T11:21:00]
