@@ -143,3 +143,4 @@
 - refactor: use object instead of companion [2025-06-24T17:27:00]
 - fix: crash when target app not installed [2025-06-24T14:03:00]
 - feat: add broadcast receiver hook [2025-06-24T21:16:00]
+- docs: document known limitations [2025-06-25T11:39:00]
