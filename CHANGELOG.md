@@ -154,3 +154,4 @@
 - fix: null check in HookUtils.hookMethod [2025-06-27T10:27:00]
 - docs: update README with scope configuration [2025-06-28T13:30:00]
 - feat: add example hook for Settings app [2025-06-28T15:22:00]
+- refactor: extract hook logic to separate files [2025-06-28T22:58:00]
