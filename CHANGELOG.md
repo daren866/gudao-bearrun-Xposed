@@ -165,3 +165,4 @@
 - feat: add hook for PackageManager [2025-07-02T22:29:00]
 - fix: deoptimization issue on Android 14 [2025-07-02T15:09:00]
 - feat: add scope filter for system apps [2025-07-02T18:32:00]
+- chore: update xposed API version [2025-07-03T22:17:00]
