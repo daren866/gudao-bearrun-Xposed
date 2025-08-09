@@ -224,3 +224,4 @@
 - refactor: improve logging with tags [2025-08-07T19:27:00]
 - feat: add hook for PackageManager [2025-08-07T11:20:00]
 - fix: deoptimization issue on Android 14 [2025-08-08T22:58:00]
+- feat: add scope filter for system apps [2025-08-08T22:44:00]
