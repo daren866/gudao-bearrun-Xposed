@@ -230,3 +230,4 @@
 - fix: hook not applied after module update [2025-08-09T09:26:00]
 - docs: add FAQ section to README [2025-08-10T15:59:00]
 - feat: add resource hook example [2025-08-10T15:26:00]
+- refactor: use object instead of companion [2025-08-10T09:46:00]
