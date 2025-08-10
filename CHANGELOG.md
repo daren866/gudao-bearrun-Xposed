@@ -228,3 +228,4 @@
 - chore: update xposed API version [2025-08-09T13:59:00]
 - feat: add method replacement example [2025-08-09T20:54:00]
 - fix: hook not applied after module update [2025-08-09T09:26:00]
+- docs: add FAQ section to README [2025-08-10T15:59:00]
