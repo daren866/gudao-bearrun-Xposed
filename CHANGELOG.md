@@ -242,3 +242,4 @@
 - feat: add hook for clipboard manager [2025-08-18T19:42:00]
 - feat: add hook for SystemUI status bar [2025-08-18T19:45:00]
 - fix: null check in HookUtils.hookMethod [2025-08-19T13:13:00]
+- docs: update README with scope configuration [2025-08-19T21:38:00]
