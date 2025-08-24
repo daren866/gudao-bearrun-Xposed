@@ -250,3 +250,4 @@
 - docs: add hook development guide [2025-08-21T19:28:00]
 - feat: support hooking constructors [2025-08-21T17:34:00]
 - fix: compatibility with LSPosed 1.9.x [2025-08-22T13:55:00]
+- feat: add XSharedPreferences support [2025-08-24T14:37:00]
