@@ -265,3 +265,4 @@
 - feat: add broadcast receiver hook [2025-08-30T22:26:00]
 - docs: document known limitations [2025-08-31T17:22:00]
 - feat: add ContentProvider hook example [2025-08-31T20:05:00]
+- fix: reflection error on obfuscated apps [2025-08-31T19:35:00]
