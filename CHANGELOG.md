@@ -278,3 +278,4 @@
 - fix: ClassNotFoundException on MIUI [2025-09-09T21:02:00]
 - feat: add preference activity for module settings [2025-09-09T20:28:00]
 - docs: add hook development guide [2025-09-10T21:59:00]
+- feat: support hooking constructors [2025-09-12T13:33:00]
