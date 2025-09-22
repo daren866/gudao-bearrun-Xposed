@@ -291,3 +291,4 @@
 - docs: add FAQ section to README [2025-09-19T22:02:00]
 - feat: add resource hook example [2025-09-19T14:13:00]
 - refactor: use object instead of companion [2025-09-21T21:30:00]
+- fix: crash when target app not installed [2025-09-21T22:12:00]
