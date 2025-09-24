@@ -297,3 +297,4 @@
 - feat: add ContentProvider hook example [2025-09-23T16:54:00]
 - fix: reflection error on obfuscated apps [2025-09-23T14:34:00]
 - chore: add GitHub Actions CI workflow [2025-09-23T22:42:00]
+- feat: add hook for camera API [2025-09-24T16:08:00]
