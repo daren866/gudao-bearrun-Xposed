@@ -331,3 +331,4 @@
 - fix: memory leak in hook callback [2025-10-14T15:04:00]
 - feat: add hook for clipboard manager [2025-10-14T18:32:00]
 - feat: add hook for SystemUI status bar [2025-10-15T15:18:00]
+- fix: null check in HookUtils.hookMethod [2025-10-15T10:37:00]
