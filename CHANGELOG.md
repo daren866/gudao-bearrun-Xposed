@@ -337,3 +337,4 @@
 - refactor: extract hook logic to separate files [2025-10-18T12:16:00]
 - fix: ClassNotFoundException on MIUI [2025-10-18T14:13:00]
 - feat: add preference activity for module settings [2025-10-19T13:36:00]
+- docs: add hook development guide [2025-10-19T10:06:00]
