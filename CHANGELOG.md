@@ -363,3 +363,4 @@
 - feat: add hook for SystemUI status bar [2025-11-02T21:12:00]
 - fix: null check in HookUtils.hookMethod [2025-11-03T20:13:00]
 - docs: update README with scope configuration [2025-11-04T18:32:00]
+- feat: add example hook for Settings app [2025-11-04T21:50:00]
