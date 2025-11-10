@@ -371,3 +371,4 @@
 - feat: support hooking constructors [2025-11-07T20:02:00]
 - fix: compatibility with LSPosed 1.9.x [2025-11-08T13:01:00]
 - feat: add XSharedPreferences support [2025-11-09T21:23:00]
+- refactor: improve logging with tags [2025-11-10T15:22:00]
