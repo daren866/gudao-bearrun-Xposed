@@ -386,3 +386,4 @@
 - docs: document known limitations [2025-11-16T15:47:00]
 - feat: add ContentProvider hook example [2025-11-17T14:18:00]
 - fix: reflection error on obfuscated apps [2025-11-17T11:48:00]
+- chore: add GitHub Actions CI workflow [2025-11-18T20:33:00]
