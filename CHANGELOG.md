@@ -412,3 +412,4 @@
 - feat: add resource hook example [2025-12-05T15:24:00]
 - refactor: use object instead of companion [2025-12-05T20:11:00]
 - fix: crash when target app not installed [2025-12-06T18:43:00]
+- feat: add broadcast receiver hook [2025-12-06T20:40:00]
