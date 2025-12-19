@@ -429,3 +429,4 @@
 - feat: add preference activity for module settings [2025-12-17T11:45:00]
 - docs: add hook development guide [2025-12-19T18:22:00]
 - feat: support hooking constructors [2025-12-19T09:35:00]
+- fix: compatibility with LSPosed 1.9.x [2025-12-19T17:06:00]
