@@ -444,3 +444,4 @@
 - fix: crash when target app not installed [2025-12-23T10:24:00]
 - feat: add broadcast receiver hook [2025-12-24T17:26:00]
 - docs: document known limitations [2025-12-26T13:43:00]
+- feat: add ContentProvider hook example [2025-12-27T15:33:00]
