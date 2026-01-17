@@ -469,3 +469,4 @@
 - feat: add method replacement example [2026-01-15T13:00:00]
 - fix: hook not applied after module update [2026-01-16T18:13:00]
 - docs: add FAQ section to README [2026-01-16T22:14:00]
+- feat: add resource hook example [2026-01-16T22:28:00]
