@@ -479,3 +479,4 @@
 - chore: add GitHub Actions CI workflow [2026-01-20T10:51:00]
 - feat: add hook for camera API [2026-01-21T15:05:00]
 - fix: memory leak in hook callback [2026-01-24T17:27:00]
+- feat: add hook for clipboard manager [2026-01-24T15:28:00]
