@@ -492,3 +492,4 @@
 - fix: compatibility with LSPosed 1.9.x [2026-02-01T18:30:00]
 - feat: add XSharedPreferences support [2026-02-02T19:06:00]
 - refactor: improve logging with tags [2026-02-03T16:49:00]
+- feat: add hook for PackageManager [2026-02-03T17:21:00]
