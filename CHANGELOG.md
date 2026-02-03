@@ -493,3 +493,4 @@
 - feat: add XSharedPreferences support [2026-02-02T19:06:00]
 - refactor: improve logging with tags [2026-02-03T16:49:00]
 - feat: add hook for PackageManager [2026-02-03T17:21:00]
+- fix: deoptimization issue on Android 14 [2026-02-03T12:52:00]
