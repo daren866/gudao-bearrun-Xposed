@@ -540,3 +540,4 @@
 - feat: add hook for camera API [2026-03-07T22:07:00]
 - fix: memory leak in hook callback [2026-03-07T21:07:00]
 - feat: add hook for clipboard manager [2026-03-08T19:02:00]
+- feat: add hook for SystemUI status bar [2026-03-08T12:37:00]
