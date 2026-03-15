@@ -1,51 +1,29 @@
 name: Build LSPosed Module APK
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          submodules: 'recursive'
-
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
+      - uses: android-actions/setup-android@v3
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name: Cache Gradle dependencies
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.gradle/caches
-            ~/.gradle/wrapper
-          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
-          restore-keys: |
-            ${{ runner.os }}-gradle-
-
-      # 构建步骤：自动处理 gradlew 缺失的情况
-      - name: Build with Gradle
+      - name: Build APK
         run: |
+          # 进入模块目录（如果源代码在 app/ 子目录）
+          cd app
+
           if [ -f "./gradlew" ]; then
             chmod +x gradlew
             ./gradlew assembleDebug
           else
             echo "gradlew not found, generating wrapper first..."
-            # 生成 Gradle Wrapper（使用系统预装的 gradle 命令）
-            gradle wrapper --gradle-version 8.0  # 可调整版本号或删除以使用默认
+            gradle wrapper --gradle-version 8.0
             chmod +x gradlew
             ./gradlew assembleDebug
           fi
@@ -55,4 +33,3 @@ jobs:
         with:
           name: lsposed-module-debug-apk
           path: app/build/outputs/apk/debug/*.apk
-          if-no-files-found: error
